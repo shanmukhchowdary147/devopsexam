@@ -13,9 +13,7 @@ pipeline {
                      stage('Build') {
                           steps {
                                 echo 'Building jar files...'
-                             echo 'SWAPNIL AGRAWAL'
-                              echo 'E19CSE233'
-                             echo 'EB06'
+                             echo 'Shannukh Chowdary E19CSE374'
 //                                 bat 'mvn package' 
                                 }
                                  }
