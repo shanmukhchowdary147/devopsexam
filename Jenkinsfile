@@ -4,7 +4,7 @@ pipeline {
         stage('Testing') {
              steps {
                   echo 'running Tests'
-                  echo 'Shannukh Chowdary E19CSE374'
+                  echo 'Pericherla Hemanth Varma E19CSE390'
                   
                  
 //                    bat 'mvn test' 
@@ -13,7 +13,7 @@ pipeline {
                      stage('Build') {
                           steps {
                                 echo 'Building jar files...'
-                             echo 'Shannukh Chowdary E19CSE374'
+                             echo 'Pericherla Hemanth Varma E19CSE390'
 //                                 bat 'mvn package' 
                                 }
                                  }
