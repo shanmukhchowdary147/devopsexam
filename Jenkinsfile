@@ -4,7 +4,7 @@ pipeline {
         stage('Testing') {
              steps {
                   echo 'running Tests'
-                  echo 'HPC - 4'
+                  echo 'HPC - 0'
                   echo 'SPM - 3'
                   echo 'DevOps - 3'
                   echo 'Environment - 1'
