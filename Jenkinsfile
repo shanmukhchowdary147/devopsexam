@@ -4,7 +4,10 @@ pipeline {
         stage('Testing') {
              steps {
                   echo 'running Tests'
-                  echo 'Pericherla Hemanth Varma E19CSE390'
+                  echo 'HPC - 4'
+                  echo 'SPM - 3'
+                  echo 'DevOps - 3'
+                  echo 'Environment - 1'
                   
                  
 //                    bat 'mvn test' 
@@ -12,8 +15,11 @@ pipeline {
                     }
                      stage('Build') {
                           steps {
-                                echo 'Building jar files...'
-                             echo 'Pericherla Hemanth Varma E19CSE390'
+                               echo 'Building jar files...'
+                               echo 'HPC - 4'
+                               echo 'SPM - 3'
+                               echo 'DevOps - 3'
+                               echo 'Environment - 1'
 //                                 bat 'mvn package' 
                                 }
                                  }
