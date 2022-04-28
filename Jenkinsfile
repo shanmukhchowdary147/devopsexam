@@ -4,10 +4,10 @@ pipeline {
         stage('Testing') {
              steps {
                   echo 'running Tests'
-                  echo 'HPC - 4'
-                  echo 'SPM - 3'
-                  echo 'DevOps - 3'
-                  echo 'Environment - 1'
+                  echo 'HPC - 4 credits'
+                  echo 'SPM - 3 credits'
+                  echo 'DevOps - 3 credits'
+                  echo 'Environment - 1 credit'
                   
                  
 //                    bat 'mvn test' 
@@ -16,10 +16,10 @@ pipeline {
                      stage('Build') {
                           steps {
                                echo 'Building jar files...'
-                               echo 'HPC - 4'
-                               echo 'SPM - 3'
-                               echo 'DevOps - 3'
-                               echo 'Environment - 1'
+                               echo 'HPC - 4 credits'
+                               echo 'SPM - 3 credits'
+                               echo 'DevOps - 3 credits'
+                               echo 'Environment - 1 credit'
 //                                 bat 'mvn package' 
                                 }
                                  }
