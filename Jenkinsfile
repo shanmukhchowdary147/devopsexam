@@ -16,7 +16,7 @@ pipeline {
                      stage('Build') {
                           steps {
                                echo 'Building jar files...'
-                               echo 'HPC - 4 credits'
+                               echo 'Shajahan'
                                echo 'SPM - 3 credits'
                                echo 'DevOps - 3 credits'
                                echo 'Environment - 1 credit'
